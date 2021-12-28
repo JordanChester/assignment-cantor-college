@@ -1,0 +1,127 @@
+#container {
+  margin: auto;
+  max-width: 1500px;
+  min-width: 600px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 8px 8px 8px 8px;
+}
+header h1 a {
+  padding-left: 55px;
+  font-size: 60px;
+}
+#cantorCollege {
+  display: flex;
+}
+#headerContact {
+  display: block;
+}
+#headerContact ul {
+  list-style: none;
+  color: #fff;
+  text-align: right;
+  padding-right: 15px;
+}
+#logo {
+  display: block;
+  align-items: center;
+  padding-left: 27px;
+  width: 120px;
+  height: auto;
+}
+.burger {
+  display: none;
+}
+nav {
+  display: block;
+  flex-basis: 200px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+nav h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 15px;
+}
+nav ul {
+  margin: 10px;
+  text-align: center;
+}
+nav ul li {
+  padding: 15px 0;
+}
+nav li:last-child {
+  border: none;
+}
+nav li a:hover {
+  color: #50401a;
+}
+#content {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 0 0;
+}
+section h2 {
+  font-size: 32px;
+}
+section {
+  font-size: 18px;
+  flex-basis: 950px;
+  padding: 0 15px;
+  flex-grow: 1;
+}
+.sliderContainer {
+  flex-basis: 250px;
+}
+#lightSlider div img {
+  width: 250px;
+  height: auto;
+}
+form {
+  width: 100%;
+  margin: auto;
+}
+form > div {
+  margin: 5px 15px;
+  display: flex;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 10px;
+  margin: 0 10px;
+}
+textarea {
+  height: 100px;
+}
+input[type="submit"] {
+  margin: 10px 110px;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+#table table {
+  font-size: 15px;
+}
+th,
+td {
+  padding: 5px 25px 0px 0px;
+}
+.contactDetails p {
+  margin: 0;
+}
+.cantorAddress p {
+  margin: 0;
+}
