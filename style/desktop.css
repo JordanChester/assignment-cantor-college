@@ -23,7 +23,7 @@ header h1 a {
 }
 #headerContact ul {
   list-style: none;
-  color: #fff;
+  color: #000;
   text-align: right;
   padding-right: 15px;
 }
