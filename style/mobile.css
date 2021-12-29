@@ -62,7 +62,7 @@ nav ul {
   margin: 0;
 }
 nav ul li {
-  border-bottom: 2px solid #bb8300b2;
+  border-bottom: 2px solid #9c762e;
   padding: 5px;
 }
 nav ul li a {
@@ -175,7 +175,7 @@ input[type="submit"] {
   padding: 10px;
 }
 footer {
-  border-top: 1px solid #bb8300b2;
+  border-top: 1px solid #9c762e;
   margin: 20px 10px 10px 10px;
   font-size: 0.8em;
   text-align: center;
