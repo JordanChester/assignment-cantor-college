@@ -9,10 +9,6 @@ body {
 #container {
   width: 100%;
 }
-#content,
-footer {
-  padding: 0, 15px;
-}
 #cantorCollege {
   text-align: center;
 }
